@@ -11,7 +11,7 @@
 
 .nav-making{
     height:150px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: rgb(255, 255, 255);
 }
 
@@ -53,7 +53,7 @@ nav .button{
 
 .header-part-two{
     height:450px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 5px;
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
@@ -118,3 +118,284 @@ nav .button{
 .all p{
     text-align: center;
 }
+
+
+
+
+/* main body part styles */
+
+.Main-Parent{
+    height: 1150px;
+    /* border: 2px solid black; */
+    background-color: rgba(13, 19, 33, 0.02);
+    
+}
+
+.first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-child p{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin-bottom: 100px;
+   
+}
+
+.first-child h1{
+    /* border: 2px solid red; */
+    margin-top: 70px;
+}
+
+
+.second-child{
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 280px;
+}
+
+.grand-child{
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+}
+
+.grand-child button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.grand-child p{
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    
+}
+
+.second-child .grand-child{
+    /* border: 2px solid black; */
+    margin-right: 80px;
+}
+
+
+
+.grand-child-two{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    /* display: block; */
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+
+
+
+
+/* third-child */
+
+.third-child{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 280px;
+}
+
+.third-child .third-grand-child-one{
+    /* border: 2px solid black; */
+    margin-left: 80px;
+    margin-top: 30px
+}
+
+.third-child .third-grand-child{
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+
+.third-child .third-grand-child-one a button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px; 
+    border-radius: 8px;
+}
+
+
+
+/* fourth-child */
+
+.fourth-child{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 280px;
+}
+
+.fourth-child .fourth-grand-child-one{
+    /* border: 2px solid black; */
+    margin-right: 80px;
+    margin-top: 30px
+}
+
+.fourth-child .fourth-grand-child{
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+
+.fourth-child .fourth-grand-child a button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px; 
+    border-radius: 8px;
+}
+
+
+/* Inspiration-part */
+
+.Inspiration-part{
+    height: 550px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.2);
+}
+
+.Inspiration-part .paragraph-title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Inspiration-part .video-title{
+    margin-top: 20px;
+}
+
+
+
+
+
+/* skill-part */
+
+
+.skill-part{
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-part .skill-part-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.skill-part .skill-part-one p{
+    text-align: center;
+}
+
+
+.skill-part-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    /* gap: 25px;
+    padding: 20px;
+    box-shadow: 0px 6px 30px 0px bisque; */
+}
+
+.skill-part-two .skill-showing-one{
+   
+    padding: 20px;
+    box-shadow: 10px 20px 30px 0px bisque;
+    margin-right: 20px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-part-two .skill-showing-two{
+   
+    padding: 20px;
+    box-shadow: 10px 20px 30px 0px bisque;
+    margin-right: 20px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-part-two .skill-showing-three{
+   
+    padding: 20px;
+    box-shadow: 10px 20px 30px 0px bisque;
+    margin-right: 20px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+/* submit part */
+
+.support-part{
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-part{
+    
+    text-align: center;
+}
+
+.first-part h2{
+    color: rgb(253, 250, 250);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.second-part input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.second-part button{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 25px;
+
+}
+
+
+
+
