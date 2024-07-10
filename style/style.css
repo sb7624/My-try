@@ -183,6 +183,7 @@ nav .button{
 .second-child .grand-child{
     /* border: 2px solid black; */
     margin-right: 80px;
+    margin-left: 40px;
 }
 
 
@@ -216,12 +217,13 @@ nav .button{
 .third-child .third-grand-child-one{
     /* border: 2px solid black; */
     margin-left: 80px;
-    margin-top: 30px
+    margin-right: 40px;
 }
 
 .third-child .third-grand-child{
     /* border: 2px solid black; */
     margin-top: 30px;
+    margin-left: 40px;
 }
 
 .third-child .third-grand-child-one a button{
@@ -248,12 +250,13 @@ nav .button{
 .fourth-child .fourth-grand-child-one{
     /* border: 2px solid black; */
     margin-right: 80px;
-    margin-top: 30px
+    margin-top: 20px;
 }
 
 .fourth-child .fourth-grand-child{
     /* border: 2px solid black; */
     margin-top: 30px;
+    margin-left: 40px;
 }
 
 .fourth-child .fourth-grand-child a button{
