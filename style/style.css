@@ -415,6 +415,16 @@ nav .button{
     margin-top: 20px;
 }
 
+.div-no-two{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.div-no-one{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
 
 
 
