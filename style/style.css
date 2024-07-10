@@ -61,14 +61,14 @@ nav .button{
     background-size: cover;
 }
 
-.header-part-two .all h2{
+/* .header-part-two .all h2{
     text-align: center;
     
 }
 
 .header-part-two .all p{
     text-align: center; 
-}
+} */
 
 .all img{
     /* border: 2px solid black; */
@@ -76,29 +76,45 @@ nav .button{
     width: 150px;
     margin-top:  30px;
 }
-.all .image-mia{
+/* .all .image-mia{
     width:50%;
     margin: 0 auto;
     
-}
+} */
 
-.all{
+/* .all{
     width: 50%;
     margin: 0 auto;
-}
+} */
 
-.all .button-mia{
+/* .all .button-mia{
     width:50%;
     margin: 0 auto;
-}
+} */
 
 .all .button-mia button{
     margin-top: 10px;
     border-radius: 8px;
+    border: none;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     width: 140px;
     height: 40px;
     text-align: center;
-    
+    opacity: 0.8;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all h2{
+    text-align: center;
+}
+
+.all p{
+    text-align: center;
 }
