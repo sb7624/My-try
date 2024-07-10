@@ -354,6 +354,41 @@ nav .button{
     background: rgba(255, 223, 0, 0.05);
 }
 
+.skill-part-two .skill-showing-one h5{
+    /* border: 2px solid black; */
+    margin-left: 9px;
+}
+
+.skill-part-two .skill-showing-one p{
+    margin-left: 9px;
+}
+
+.skill-part-two .skill-showing-one a{
+    margin-left: 6px;
+}
+
+
+.skill-part-two .skill-showing-two h5{
+    margin-left: 11px;
+}
+
+.skill-part-two .skill-showing-two p{
+    margin-left: 9px;
+}
+
+.skill-part-two .skill-showing-two a{
+    margin-left: 6px;
+}
+
+.skill-part-two .skill-showing-three h5{
+    margin-left: 2px;
+}
+
+
+/* .skill-part-two .skill-showing-two img{
+    border: 2px solid black;
+} */
+
 
 
 /* submit part */
