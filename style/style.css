@@ -396,6 +396,25 @@ nav .button{
 
 }
 
+/* footer section */
+
+.footer{
+  /* border: 2px solid black; */
+   margin-top: 30px;
+   height: 70px; 
+   background: rgba(13, 19, 33, 0.03);
+}
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 
 
 
